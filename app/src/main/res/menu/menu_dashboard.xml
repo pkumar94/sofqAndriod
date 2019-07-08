@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/item_manage_user"
+        android:title="@string/menu_manage_user"
+        android:visible="true"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/item_change_role"
+        android:title="@string/menu_change_role"
+        android:visible="true"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/item_change_password"
+        android:title="@string/menu_change_password"
+        android:visible="true"
+        app:showAsAction="withText" />
+    <item
+        android:id="@+id/item_logout"
+        android:title="@string/menu_logout"
+        android:visible="true"
+        app:showAsAction="withText" />
+</menu>

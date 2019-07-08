@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:layout_marginStart="@dimen/margin_8"
+    android:layout_marginLeft="@dimen/margin_8"
+    android:layout_marginTop="@dimen/margin_8"
+    android:layout_marginEnd="@dimen/margin_8"
+    android:layout_marginRight="@dimen/margin_8"
+    card_view:cardCornerRadius="@dimen/margin_4">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="@dimen/margin_8">
+
+        <!--<LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_8">
+
+            <TextView
+                android:id="@+id/tv_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/role"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_create_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/create_user"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_add_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/add_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_edit_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/edit_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_copy_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/copy_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_rename_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/rename_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_delete_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/delete_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_add_requirement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/add_requirement"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_delete_requirement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/delete_requirement"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_submit_test_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/submit_test_plan"
+                android:textSize="@dimen/text_size_16" />
+
+            <TextView
+                android:id="@+id/tv_submit_rest_strategy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/submit_rest_strategy"
+                android:textSize="@dimen/text_size_16" />
+
+        </LinearLayout>-->
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:padding="@dimen/margin_8">
+
+            <CheckBox
+                android:id="@+id/cb_role"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/role"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_create_user"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/create_user"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_add_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/add_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_edit_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/edit_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_copy_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/copy_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_rename_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/rename_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_delete_project"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/delete_project"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_add_requirement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/add_requirement"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_delete_requirement"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/delete_requirement"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_submit_test_plan"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/submit_test_plan"
+                android:textSize="@dimen/text_size_16" />
+
+            <CheckBox
+                android:id="@+id/cb_submit_rest_strategy"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_4"
+                android:text="@string/submit_rest_strategy"
+                android:textSize="@dimen/text_size_16" />
+
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

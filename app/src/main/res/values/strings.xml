@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">SofQ</string>
+
+    <string name="user_id">User Id</string>
+    <string name="hint_password">Password</string>
+    <string name="btn_login_title">Log In</string>
+    <string name="btn_cancel">Cancel</string>
+    <string name="btn_sign_up">Sign up</string>
+    <string name="error_msg_enter_valid_user_id">Enter valid user id</string>
+    <string name="error_msg_enter_password">Enter Password</string>
+    <string name="forgot_password"><u>Forgot Password?</u></string>
+    <string name="welcome_to_sofq"><u>Welcome to SOFQ</u></string>
+
+
+    <string name="hint_name">Name : </string>
+    <string name="txt_name">Name : %1$s %2$s</string>
+    <string name="hint_user_name">User Name : </string>
+    <string name="txt_user_name">User Nme : %1$s</string>
+    <string name="hint_role">Role : </string>
+    <string name="txt_role">Role : %1$s</string>
+    <string name="hint_status">Status : </string>
+    <string name="txt_status">Status : %1$s</string>
+    <!--Common Toolbar-->
+    <string name="hint_toolbar_title">Toolbar Title</string>
+
+    <!--Dashboard Toolbar menu title-->
+    <string name="menu_manage_user">Manage User</string>
+    <string name="menu_change_role">Check Role Access</string>
+    <string name="menu_change_password">Change Password</string>
+    <string name="menu_logout">Logout</string>
+
+    <string name="title_dashboard">Dashboard</string>
+
+    <!--AddViewFragment-->
+    <string name="hint_user_first_name">First Name</string>
+    <string name="hint_user_last_name">Last Name</string>
+    <string name="hint_user_email">User Email</string>
+    <string name="hint_user_unique">User Unique Id</string>
+    <string name="hint_user_user_name">User Name</string>
+    <string name="hint_user_password">Password</string>
+    <string name="hint_confirm_password">Confirm Password</string>
+    <string name="hint_role_desc">Role Description</string>
+    <string name="hint_user_role">Role</string>
+    <string name="hint_user_status">Status</string>
+
+    <!--Status adapter-->
+    <array name="user_account_status">
+        <item>Select Status</item>
+        <item>Active</item>
+        <item>Inactive</item>
+    </array>
+
+    <!--Role adapter-->
+    <string name="error_first_name">Enter First Name</string>
+    <string name="error_last_name">Enter Last Name</string>
+    <string name="error_user_email">Enter user email</string>
+    <string name="error_user_unique_id">Enter user unique id</string>
+    <string name="error_user_name">Enter user name</string>
+    <string name="error_password">Enter password</string>
+    <string name="error_confirm_password">Enter confirm password</string>
+    <string name="error_password_confirm_password">Entered Password and confirm password doesn\'t match.</string>
+    <string name="error_select_role">Enter select role</string>
+    <string name="error_select_role_desc">Enter select role description</string>
+    <string name="error_select_status">Enter select status</string>
+
+    <string name="btn_submit">Submit</string>
+    <string name="btn_update">Update</string>
+
+    <!--Spinner list item-->
+    <string name="hint_spinner_item">Spinner Item</string>
+
+    <!--Delete User-->
+    <string name="alert_heading_delete_user">Delete User</string>
+    <string name="alert_msg_delete_user">Do you want to delete user?</string>
+    <string name="txt_ok">OK</string>
+
+    <!--Dialog change password-->
+    <string name="txt_change_password">Change Password</string>
+    <string name="hint_new_password">New Password</string>
+    <string name="txt_reset">Reset</string>
+    <string name="dialog_title_change_password">Change Password</string>
+    <string name="dialog_msg_failed_to_update_password">Failed to update password</string>
+
+    <!--dialog forgot password-->
+    <string name="hint_forgot_password">Forgot Password?</string>
+    <string name="hint_enter_userid">Enter your UserId</string>
+    <string name="msg_enter_userid">Enter username to receive reset password link on your\nregistered e-mail id.</string>
+    <string name="msg_enter_user_id">Enter user id</string>
+
+    <string name="title_add_new_user">Add New User</string>
+    <string name="title_edit_user">Edit User</string>
+    <string name="title_role">Roles</string>
+    <string name="title_manage_user">Manage Users</string>
+    <string name="title_user">Users</string>
+
+    <string name="role">Role: %1$s</string>
+    <string name="create_user">Create User : %1$s</string>
+    <string name="add_project">Add Project : %1$s</string>
+    <string name="edit_project">Edit Project : %1$s</string>
+    <string name="copy_project">Copy Project : %1$s</string>
+    <string name="rename_project">Rename Project : %1$s</string>
+    <string name="delete_project">Delete Project : %1$s</string>
+    <string name="add_requirement">Add Requirement : %1$s</string>
+    <string name="delete_requirement">Delete Requirement : %1$s</string>
+    <string name="submit_test_plan">Submit Test Plan : %1$s</string>
+    <string name="submit_rest_strategy">Submit Test Strategy : %1$s</string>
+
+
+</resources>
